@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "UTS Pemrograman Lanjut",
+  title: "LinkBooks",
   description: "By Akhsanul Fikri Nur Fauzan",
 };
 
