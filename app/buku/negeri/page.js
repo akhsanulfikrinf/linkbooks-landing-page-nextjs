@@ -6,13 +6,15 @@ export default function Negeri() {
     <div className="font-arial overflow-auto">
       <header className="p-2 flex flex-wrap box-border bg-orange-300">
         <ul>
-          <Image
-            className=""
-            src="/logo.png"
-            alt="logo"
-            width={75}
-            height={75}
-          />
+          <Link href="/">
+            <Image
+              className=""
+              src="/logo.png"
+              alt="logo"
+              width={75}
+              height={75}
+            />
+          </Link>
         </ul>
         <h2 className="p-4 font-bold text-4xl">LinkBooks</h2>
         <ul className="">
@@ -63,44 +65,43 @@ export default function Negeri() {
       </article>
 
       <footer className="bg-stone-700 p-6">
-        <Image className="" src="/logo.png" alt="logo" width={35} height={35} />
-        <p className="font-bold">LinkBooks</p>
-        <div className="flex flex-wrap gap-96 px-32">
-          <ul>
-            <li className="hover:text-blue-600 py-2">
-              <a
-                href="https://www.instagram.com/afnf_11"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Contact
-              </a>
-            </li>
-            <li className="hover:text-blue-600 py-2">
-              <a
-                href="https://gramedia.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sumber
-              </a>
-            </li>
-            <li className="hover:text-blue-600 py-2">
-              <a
-                href="https://nextjs.org/docs"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Help
-              </a>
-            </li>
-          </ul>
-          <ul className="rounded-md bg-stone-800 p-1">
-            <h2 className="py-1 font-semibold">Tentang Saya</h2>
-            <li>Nama : Akhsanul Fikri Nur Fauzan</li>
-            <li>NIM : 2303040085</li>
-            <li>Kelas : B1</li>
-          </ul>
+        <div className="flex flex-wrap gap-10">
+          <Link href="/">
+            <Image
+              className=""
+              src="/logo.png"
+              alt="logo"
+              width={35}
+              height={35}
+            />
+          </Link>
+          <div className="hover:text-blue-600 py-2">
+            <a
+              href="https://www.instagram.com/afnf_11"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact
+            </a>
+          </div>
+          <div className="hover:text-blue-600 py-2">
+            <a
+              href="https://gramedia.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Sumber
+            </a>
+          </div>
+          <div className="hover:text-blue-600 py-2">
+            <a
+              href="https://nextjs.org/docs"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Help
+            </a>
+          </div>
         </div>
       </footer>
     </div>
